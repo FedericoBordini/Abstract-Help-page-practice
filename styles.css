@@ -66,20 +66,21 @@ header {
     height: 400px;
 }
 
-label {
+form {
     height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
     font-size: 5em;
 }
 
 .search {
-    margin-left: 30%;
-    margin-top: -50px ;
-    width: 40%;
-    height: 15%;
+    margin-left: -60px;
+    margin-top: -50px;
+    width: 90%;
+    height: 20%;
     border-radius: 10px;
+    font-size: large;
 }
 
 .image-search {
@@ -87,4 +88,36 @@ label {
     width: 40px;
     margin-left: -50px;
     margin-bottom: -15px;
+}
+
+.Abstract {
+  display: grid;
+  grid-auto-rows: 70px;  
+  margin-left: 400px;
+  margin-top: -130px;
+  font-size: x-large;
+  grid-auto-columns: 35%;
+}
+
+.photo-using-abstract {
+    width: 120px; 
+    margin-top: 560px;
+    margin-left: 250px;
+}
+
+.account {
+  display: grid;
+  grid-auto-rows: 70px;  
+  margin-left: 50em;
+  margin-top: -220px;
+  font-size: x-large;
+  grid-auto-columns: 71%;
+}
+
+.photo-account {
+    width: 120px; 
+    margin-top: -550px;
+    margin-left: 60em;
+    padding: 90px;
+
 }
