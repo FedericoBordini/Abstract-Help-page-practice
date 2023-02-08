@@ -12,6 +12,7 @@
 
 main {
     background-color: var(--bar-bg-color);
+    overflow: hidden;
 }
 
 .right {
@@ -90,34 +91,93 @@ form {
     margin-bottom: -15px;
 }
 
-.Abstract {
+.abstract {
   display: grid;
-  grid-auto-rows: 70px;  
-  margin-left: 400px;
+  grid-auto-rows: 60px;  
+  margin-left: 500px;
   margin-top: -130px;
-  font-size: x-large;
-  grid-auto-columns: 35%;
+  font-size: large;
+  grid-auto-columns: 29%;
 }
 
 .photo-using-abstract {
     width: 120px; 
     margin-top: 560px;
-    margin-left: 250px;
+    margin-left: 350px;
 }
 
 .account {
   display: grid;
-  grid-auto-rows: 70px;  
-  margin-left: 50em;
-  margin-top: -220px;
-  font-size: x-large;
-  grid-auto-columns: 71%;
+  grid-auto-rows: 65px;  
+  margin-left: 69em;
+  margin-top: -200px;
+  font-size: large;
+  grid-auto-columns: 55%;
 }
 
 .photo-account {
     width: 120px; 
-    margin-top: -550px;
-    margin-left: 60em;
-    padding: 90px;
+    margin-top: -400px;
+    margin-left: 62em;
+    padding: 80px;
+}
 
+.manage {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 71%;  
+    margin-top: -100px;
+    margin-left: 30em;
+    font-size: medium;
+}
+
+.photo-manage {
+    width: 120px;
+    margin-top: 80px;
+    margin-left: 21em;
+}
+
+.billing {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 71%;
+    font-size: medium;
+    margin-left: 77em;
+    margin-top: -168px;
+}
+
+.photo-billing {
+    width: 120px;
+    margin-top: -15em;
+    margin-left: 65em;
+    padding: 3em;
+}
+
+.authenticate{
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 70%;
+    margin-left: 30em;
+    margin-top: -120px;
+}
+
+.photo-authenticate {
+    width: 120px;
+    margin-left: 21em;
+    margin-top: 5em;
+}
+
+.photo-support {
+    width: 120px;
+    margin-top: -15em;
+    margin-left: 65em;
+    padding: 3em
+}
+
+.support {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 70%;
+    margin-left: 77em;
+    margin-top: -160px;
 }
